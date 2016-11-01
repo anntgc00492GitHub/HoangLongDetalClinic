@@ -178,9 +178,9 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201610311048367_kt.cs" />
-    <Compile Include="Migrations\201610311048367_kt.Designer.cs">
-      <DependentUpon>201610311048367_kt.cs</DependentUpon>
+    <Compile Include="Migrations\201611010823423_cs.cs" />
+    <Compile Include="Migrations\201611010823423_cs.Designer.cs">
+      <DependentUpon>201611010823423_cs.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
@@ -251,6 +251,7 @@
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Views\Shared\AuthorizeFailed.cshtml" />
+    <Content Include="Views\Shared\Info.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -266,8 +267,8 @@
     <Content Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201610311048367_kt.resx">
-      <DependentUpon>201610311048367_kt.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201611010823423_cs.resx">
+      <DependentUpon>201611010823423_cs.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

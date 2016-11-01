@@ -7,13 +7,13 @@ namespace HoangLongDetalClinic.Web.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.1.3-40302")]
-    public sealed partial class kt : IMigrationMetadata
+    public sealed partial class cs : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(kt));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(cs));
         
         string IMigrationMetadata.Id
         {
-            get { return "201610311048367_kt"; }
+            get { return "201611010823423_cs"; }
         }
         
         string IMigrationMetadata.Source

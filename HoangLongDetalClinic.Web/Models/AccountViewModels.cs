@@ -82,6 +82,15 @@ namespace HoangLongDetalClinic.Web.Models
 
         [Required]
         public string UserRole { get; set; }
+
+        [Required]
+        [StringLength(50,MinimumLength = 5,ErrorMessage = "Full name must not be between 3 and 50 letters")]
+        [Display(Name = "Full name")]
+        public string FullName { get; set; }
+
+        [Required]
+        [Display(Name = "Address")]
+        public string Address { get; set; }
     }
 
     public class ResetPasswordViewModel

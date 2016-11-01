@@ -3,7 +3,7 @@ namespace HoangLongDetalClinic.Web.Migrations
     using System;
     using System.Data.Entity.Migrations;
     
-    public partial class kt : DbMigration
+    public partial class cs : DbMigration
     {
         public override void Up()
         {
@@ -35,6 +35,9 @@ namespace HoangLongDetalClinic.Web.Migrations
                 c => new
                     {
                         Id = c.String(nullable: false, maxLength: 128),
+                        UserRole = c.String(),
+                        FullName = c.String(),
+                        Address = c.String(),
                         Email = c.String(maxLength: 256),
                         EmailConfirmed = c.Boolean(nullable: false),
                         PasswordHash = c.String(),

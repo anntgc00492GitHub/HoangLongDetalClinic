@@ -38,6 +38,9 @@ namespace HoangLongDetalClinic.Web
                 user.Email = "anntgc00492@gmail.com";
                 user.EmailConfirmed = true;
                 user.LockoutEnabled = true;
+                user.FullName = "Nguyen Trong An";
+                user.Address = "Hanoi";
+                user.UserRole = "Admin";//Viet vao de co trong bang user nhu cac thuoc tinh khac, de phan quyen la role khac, cai nay chi de view
                 string userPWD = "BaBonBay347";
 
                 var chkUser = userManager.Create(user, userPWD);
