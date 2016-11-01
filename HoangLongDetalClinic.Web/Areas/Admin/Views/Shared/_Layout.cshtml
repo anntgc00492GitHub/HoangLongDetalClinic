@@ -23,6 +23,7 @@
                 {
                     <ul class="nav navbar-nav">
                         <li>@Html.ActionLink("Admin Index", "Index", "Admin")</li>
+                        <li>@Html.ActionLink("Application Users", "Index", "ApplicationUsers")</li>                       
                     </ul>
                 }
                 else if (Request.IsAuthenticated && User.IsInRole("Customer"))

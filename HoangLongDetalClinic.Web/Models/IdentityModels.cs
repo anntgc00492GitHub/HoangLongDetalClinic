@@ -32,5 +32,7 @@ namespace HoangLongDetalClinic.Web.Models
         {
             return new ApplicationDbContext();
         }
+
+        //public System.Data.Entity.DbSet<HoangLongDetalClinic.Web.Models.ApplicationUser> ApplicationUsers { get; set; }
     }
 }
